@@ -22,7 +22,7 @@ const authFormSchema = (type: FormType) => {
 
 const AuthForm = ({ type }: { type: FormType }) => {
   const router = useRouter(); // Move useRouter here
-  const formSchema = authFormSchema(type);
+  const formSchema = authFormSchema(type);  
 
   // 1. Define your form.
   const form = useForm<z.infer<typeof formSchema>>({
@@ -39,10 +39,10 @@ const AuthForm = ({ type }: { type: FormType }) => {
     try {
       if (type === "sign-up") {
         toast.success("Account created successfully!");
-        router.push("/sign-in");
+        router.replace("/sign-in");
       } else {
         toast.success("Logged in successfully!");
-        router.push("/");
+        router.replace("/");
       }
     } catch (error) {
       console.log(error);
