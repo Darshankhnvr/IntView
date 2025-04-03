@@ -26,7 +26,7 @@ const page = () => {
           alt="robo-dude"
           width={400}
           height={400}
-          className="max-sm:hidden"
+          // className="max-sm:hidden"
         ></Image>
       </section>
 

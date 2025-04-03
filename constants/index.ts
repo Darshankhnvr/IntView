@@ -227,4 +227,5 @@ export const dummyInterviews: Interview[] = [
     finalized: false,
     createdAt: "2024-03-14T15:30:00Z",
   },
+  
 ];
