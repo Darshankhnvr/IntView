@@ -3,10 +3,10 @@ import { getAuth } from "firebase-admin/auth";
 import { getFirestore } from "firebase-admin/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBtFe4t94WlnvHB1AMSf2XdeHIufnfwqCY",
-  authDomain: "intview-d4c69.firebaseapp.com",
-  projectId: "intview-d4c69",
-  storageBucket: "intview-d4c69.firebasestorage.app",
+  apiKey: "AIzaSyBtFe4t94WlnvHB1AMSf2XdeHIufnfw...",
+  authDomain: "intview-d4....firebaseapp.com",
+  projectId: "intview-d4...",
+  storageBucket: "intview-d4....firebasestorage.app",
   messagingSenderId: "318429474907",
   appId: "1:318429474907:web:4d2a6ee92a7b262807cf7e",
   measurementId: "G-59HKFNXR4P"
